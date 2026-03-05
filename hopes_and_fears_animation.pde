@@ -2,14 +2,36 @@
 //3/3/2026
 //hopes + fears animation
 
-//setup
-size(800, 800);
-background(255);
+int x;
+int y;
 
-//base
-stroke(137, 33, 7);
-strokeWeight(3);
-fill(193, 72, 41);
-circle(400, 450, 300);
+//setup and basics
+void setup() {
+  size(800, 800);
+  background(255);
+}
 
-ellipse(
+void draw() {
+  heartbase(x,y);
+}
+
+
+//base heart
+void heartbase(int x, int y) {
+   stroke(139, 41, 17);
+   strokeWeight(0);
+   fill(224, 76, 38);
+   circle(400, 450, 300);
+   ellipse(450, 460, 250, 300);
+   circle(375, 300, 200);
+   circle(450, 300, 200);
+   circle(550, 340, 100);
+
+
+}
+
+
+//heart beat1 
+void heartBeat1 () {
+  
+}
