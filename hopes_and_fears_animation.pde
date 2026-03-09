@@ -20,12 +20,22 @@ void draw() {
 void heartbase(int x, int y) {
    stroke(139, 41, 17);
    strokeWeight(0);
-   fill(224, 76, 38);
-   circle(400, 450, 300);
-   ellipse(450, 460, 250, 300);
-   circle(375, 300, 200);
-   circle(450, 300, 200);
-   circle(550, 340, 100);
+   fill(209, 86, 86);
+   circle(400, 500, 300);
+   
+   fill(152, 2, 2);
+   circle(500, 300, 250);
+   circle(330, 350, 200);
+   fill(129, 0, 0);
+   circle(500, 300, 120);
+   
+   //tubetube
+   fill(129, 0, 0);
+   
+   fill(255, 152, 152);
+   circle(550, 450, 120);
+   circle(270, 430, 120);
+   
 
 
 }
