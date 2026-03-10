@@ -4,15 +4,20 @@
 
 int x;
 int y;
-
+float d;
+float a;
 //setup and basics
 void setup() {
   size(800, 800);
   background(255);
+  d = 120;
+  a = 1;
 }
 
 void draw() {
+  background(255);
   heartbase(x,y);
+  
 }
 
 
@@ -28,16 +33,23 @@ void heartbase(int x, int y) {
    circle(330, 350, 200);
    fill(129, 0, 0);
    circle(500, 300, 120);
+
    
    //tubetube
    fill(129, 0, 0);
-   
+   ellipse(600, 400, 100, 50);
+   ellipse(600, 360, 150, 75);
+
+   //heart base again
    fill(255, 152, 152);
-   circle(550, 450, 120);
+   circle(550, 450, d);
    circle(270, 430, 120);
    
-
-
+   //println(d);
+   //d = d + a;
+  // if (d > 130 || d < 110) {
+  //   a = -a; 
+   //}
 }
 
 
