@@ -39,6 +39,7 @@ void heartbase(int x, int y) {
    fill(129, 0, 0);
    ellipse(600, 400, 100, 50);
    ellipse(600, 360, 150, 75);
+   rect(100, 100, 100, 200, 50);
 
    //heart base again
    fill(255, 152, 152);
