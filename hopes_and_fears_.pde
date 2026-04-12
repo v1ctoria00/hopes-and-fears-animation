@@ -19,7 +19,7 @@ void draw() {
   background(255);
   heartbase(x,y);
   heartBeat1(x, y);
-  hand(x, y);
+  hand(400, 700);
 }
 
 
@@ -56,9 +56,11 @@ void heartbase(int x, int y) {
 
 //Hand
 void hand(int x, int y) {
+  pushMatrix(); 
+  translate(x, y);
   fill(98, 188, 255);
   ellipse(700, 700, 100, 200);
-  
+  popMatrix();
 
 //heart beat1 
 void heartBeat1(int x, int y) {
